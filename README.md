@@ -1,6 +1,6 @@
 <!-- 底下標籤來源參考寫法可至：https://github.com/Envoy-VC/awesome-badges#github-stats -->
 
-# 六角旅館 API 系統
+# 旅館 API 系統
 
 ![start](https://img.shields.io/github/stars/hexschool/freyja.svg)｜
 ![forks](https://img.shields.io/github/forks/hexschool/freyja.svg)｜
@@ -9,8 +9,8 @@
 
 ## 關於專案
 
-- 六角學院的旅館 API 系統
-- 注意事項：此專案沒有實作使用者權限機制，因此只要取得 Token 都可以打 CRUD API
+-   六角學院的旅館 API 系統
+-   注意事項：此專案沒有實作使用者權限機制，因此只要取得 Token 都可以打 CRUD API
 
 ## API 串接範例
 
@@ -116,7 +116,7 @@ npm run swagger-autogen
 http://localhost:3005/swagger
 ```
 
-- 參考資料 : [使用 Swagger 自動生成 API 文件](https://israynotarray.com/nodejs/20201229/1974873838/)
+-   參考資料 : [使用 Swagger 自動生成 API 文件](https://israynotarray.com/nodejs/20201229/1974873838/)
 
 ## 資料夾說明
 
@@ -146,12 +146,12 @@ freyja
 
 ## 專案技術
 
-- node.js v20.8.9
-- tsx v3.14.0
-- esbuild v0.19.5
-- express v4.18.2
-- mongoose v7.6.3
-- jsonwebtoken v9.0.2
+-   node.js v20.8.9
+-   tsx v3.14.0
+-   esbuild v0.19.5
+-   express v4.18.2
+-   mongoose v7.6.3
+-   jsonwebtoken v9.0.2
 
 ## 專案指令列表
 
@@ -221,22 +221,23 @@ docker run -p 3005:3005 -d freyja:v1
 
     ![Create Web Service](https://firebasestorage.googleapis.com/v0/b/welcomewebworld-4097b.appspot.com/o/blogImg%2Fother%2Fheroku-to-render%2F%E6%88%AA%E5%9C%96%202022-12-13%2011.08.37.png?alt=media&token=c3033e12-aa4b-411b-b7d9-0ae8f6b66c2e)
 
-- 參考資料 : [關於從 Heroku 跳到 Render 這件事情](https://israynotarray.com/other/20221213/3036227586/)
+-   參考資料 : [關於從 Heroku 跳到 Render 這件事情](https://israynotarray.com/other/20221213/3036227586/)
 
 ## 待辦事項
-- 實作管理員權限
-    - 由於本專案沒有實作會員管理機制，因此預留了 isAdmin  middleware 給予自行實作。  
+
+-   實作管理員權限
+    -   由於本專案沒有實作會員管理機制，因此預留了 isAdmin middleware 給予自行實作。
 
 ## 部署教學
 
-- [TypeScript 30 天證書培訓營之後端完整部署教學](https://israynotarray.com/nodejs/20240101/268408973/)
+-   [TypeScript 30 天證書培訓營之後端完整部署教學](https://israynotarray.com/nodejs/20240101/268408973/)
 
 ## 補充資源
 
-- [Mac OS X 安裝 nvm](https://israynotarray.com/nodejs/20200124/3404456418/)
-- [Windows 10 安裝並使用 nvm 切換 NodeJS 版本](https://israynotarray.com/nodejs/20200107/3738078915/)
-- [Node.js 應用篇 - 使用 Nodemailer 來發送 Email](https://israynotarray.com/nodejs/20230722/1626712457/)
-- [使用 SSH 連接/上傳到你的 GitHub(Ed25519)](https://israynotarray.com/git/20210709/1381487661/)
-- [Node.js 實戰密技大統整（套件運用、金流、第三方登入、雲服務、Docker）](https://www.casper.tw/development/2023/10/15/ironman-collection/)
-- [《Node.js 不負責系列：把前端人員當作後端來用，就算是前端也能嘗試寫的後端～原來 Node.js 可以做這麼多事～》](https://ithelp.ithome.com.tw/articles/10339734)
-- [被迫吃芒果的前端工程師](https://israynotarray.com/nodejs/20220416/2123631571/)
+-   [Mac OS X 安裝 nvm](https://israynotarray.com/nodejs/20200124/3404456418/)
+-   [Windows 10 安裝並使用 nvm 切換 NodeJS 版本](https://israynotarray.com/nodejs/20200107/3738078915/)
+-   [Node.js 應用篇 - 使用 Nodemailer 來發送 Email](https://israynotarray.com/nodejs/20230722/1626712457/)
+-   [使用 SSH 連接/上傳到你的 GitHub(Ed25519)](https://israynotarray.com/git/20210709/1381487661/)
+-   [Node.js 實戰密技大統整（套件運用、金流、第三方登入、雲服務、Docker）](https://www.casper.tw/development/2023/10/15/ironman-collection/)
+-   [《Node.js 不負責系列：把前端人員當作後端來用，就算是前端也能嘗試寫的後端～原來 Node.js 可以做這麼多事～》](https://ithelp.ithome.com.tw/articles/10339734)
+-   [被迫吃芒果的前端工程師](https://israynotarray.com/nodejs/20220416/2123631571/)
